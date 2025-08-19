@@ -9,16 +9,20 @@
         fetch="https://github.com/TheMuppets"
         revision="lineage-23.0" />
 
+<remote name="fdur"
+        fetch="https://github.com/furbanoramos21-testing"
+        revision="lineage-23.0" />
+    
   <!-- Device -->
-  <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="origin"/>
-  <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="origin"/>
+  <project name="android_device_samsung_a12s" path="device/samsung/a12s" remote="fdur"/>
+  <project name="android_device_samsung_exynos850-common" path="device/samsung/exynos850-common" remote="fdur"/>
 
   <!-- Vendor -->
-  <project name="proprietary_vendor_samsung_a21s" path="vendor/samsung/a21s" remote="muppets"/>
-  <project name="proprietary_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="muppets"/>
+  <project name="proprietary_vendor_samsung_a12s" path="vendor/samsung/a12s" remote="fdur"/>
+  <project name="proprietary_vendor_samsung_exynos850-common" path="vendor/samsung/exynos850-common" remote="fdur"/>
 
   <!-- Kernel -->
-  <project name="android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" remote="origin"/>
+  <project name="android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" remote="fdur"/>
 
   <!-- SLSI -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="origin"/>
