@@ -1,6 +1,6 @@
 # local_manifests
 
-	git clone https://github.com/furbanoramos21-testing/local_manifests_a12s -b slsi .repo/local_manifests
+	git clone https://github.com/furbanoramos21-testing/local_manifests_a12s .repo/local_manifests
 
 # Usage
 
